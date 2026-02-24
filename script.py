@@ -1,3 +1,5 @@
-print("hello")
+def add(x: int, y: int):
+    ''' Sommo due numeri '''
+    return x + y
 
-print("seconda riga del corso")
+print(add(1, 2))
