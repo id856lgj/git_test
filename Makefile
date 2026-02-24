@@ -1,5 +1,5 @@
 install:
-	python -m pip install --upgrade pip && pip install -e requirements.txt
+	python -m pip install --upgrade pip && pip install -r requirements.txt
 	@echo "Installazione completata. adesso puoi eseguire il tuo progetto"
 
 lint:
